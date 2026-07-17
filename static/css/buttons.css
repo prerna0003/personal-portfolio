@@ -1,0 +1,75 @@
+.btn-info{
+    transition:.4s;
+}
+
+.btn-info:hover{
+    transform:translateY(-4px);
+    box-shadow:0 0 20px rgba(139,92,246,.5);
+}
+
+.btn-outline-light{
+    transition:.4s;
+}
+
+.btn-outline-light:hover{
+    transform:translateY(-4px);
+}
+
+.btn-purple{
+
+    position:relative;
+
+    overflow:hidden;
+
+}
+
+.btn-purple::before{
+
+    content:"";
+
+    position:absolute;
+
+    width:0;
+
+    height:100%;
+
+    left:0;
+
+    top:0;
+
+    background:rgba(255,255,255,.15);
+
+    transition:.4s;
+
+}
+
+.btn-purple:hover::before{
+
+    width:100%;
+
+}
+
+.btn-purple:hover{
+
+    transform:translateY(-3px);
+
+    box-shadow:0 0 25px rgba(168,85,247,.6);
+
+    color:white;
+
+}
+
+.btn-purple{
+    background: linear-gradient(135deg,#A855F7,#7C3AED);
+    color:#fff;
+    border:none;
+    padding:12px 28px;
+    border-radius:50px;
+    font-weight:600;
+    text-decoration:none;
+    display:inline-block;
+}
+
+.btn-purple:hover{
+    color:white;
+}

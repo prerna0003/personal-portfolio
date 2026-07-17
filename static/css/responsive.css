@@ -1,0 +1,24 @@
+
+@media(max-width:991px){
+
+.custom-navbar{
+
+width:95%;
+
+border-radius:20px;
+
+}
+
+.navbar-collapse{
+
+padding-top:20px;
+
+}
+
+.nav-link{
+
+margin:12px 0;
+
+}
+
+}

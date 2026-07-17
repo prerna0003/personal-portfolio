@@ -1,0 +1,38 @@
+
+.edu-card{
+
+    background:rgba(255,255,255,.05);
+
+    backdrop-filter:blur(15px);
+
+    border:1px solid rgba(255,255,255,.08);
+
+    border-radius:20px;
+
+    padding:35px;
+
+    text-align:center;
+
+    transition:.35s;
+
+    height:100%;
+
+}
+
+.edu-card:hover{
+
+    transform:translateY(-10px);
+
+    border-color:#A855F7;
+
+    box-shadow:0 0 30px rgba(168,85,247,.35);
+
+}
+
+.edu-card h4{
+
+    color:#A855F7;
+
+    margin-bottom:15px;
+
+}

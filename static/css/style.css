@@ -1,0 +1,96 @@
+@import url("variables.css");
+@import url("navbar.css");
+@import url("hero.css");
+@import url("about.css");
+@import url("skills.css");
+@import url("projects.css");
+@import url("experience.css");
+@import url("education.css");
+@import url("contact.css");
+@import url("footer.css");
+@import url("animations.css");
+@import url("responsive.css");
+@import url("stats.css");
+@import url("buttons.css");
+@import url("utilities.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+section{
+
+    padding:110px 0;
+
+}
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}body{
+
+    font-family:'Poppins',sans-serif;
+
+    background:
+    radial-gradient(circle at 10% 20%,rgba(168,85,247,.25),transparent 30%),
+    radial-gradient(circle at 90% 10%,rgba(124,58,237,.20),transparent 25%),
+    radial-gradient(circle at 50% 90%,rgba(168,85,247,.18),transparent 25%),
+    #090913;
+
+    color:white;
+
+    overflow-x:hidden;
+
+}
+
+body::before{
+
+    content:"";
+
+    position:fixed;
+
+    inset:0;
+
+    background-image:
+
+    linear-gradient(rgba(255,255,255,.03) 1px,transparent 1px),
+
+    linear-gradient(90deg,rgba(255,255,255,.03) 1px,transparent 1px);
+
+    background-size:50px 50px;
+
+    z-index:-2;
+
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+
+.section-padding{
+    padding:100px 0;
+}
+
+.section-title{
+
+    font-size:52px;
+
+    font-weight:700;
+
+    margin-bottom:20px;
+
+}
+
+.section-subtitle{
+
+    color:var(--primary);
+
+    letter-spacing:3px;
+
+    font-weight:600;
+
+}
+

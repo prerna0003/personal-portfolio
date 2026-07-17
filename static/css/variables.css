@@ -1,0 +1,16 @@
+:root{
+    --bg-color:#0B1120;
+    --card-color:#111827;
+    --text-color:#ffffff;
+    --secondary-text:#cbd5e1;
+    --accent:#8B5CF6;
+    --accent-dark:#6D28D9;
+    --accent-light:#A78BFA;
+
+    --primary:#A855F7;
+    --secondary:#7C3AED;
+    --dark:#0B1120;
+    --card:rgba(255,255,255,.05);
+    --text:#ffffff;
+    --muted:#CBD5E1;
+}

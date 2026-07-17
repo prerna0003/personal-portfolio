@@ -1,0 +1,47 @@
+
+.feature-card{
+
+    background:rgba(255,255,255,.05);
+
+    backdrop-filter:blur(15px);
+
+    border:1px solid rgba(255,255,255,.08);
+
+    border-radius:18px;
+
+    padding:30px 20px;
+
+    text-align:center;
+
+    transition:.35s;
+
+    height:100%;
+}
+
+.feature-card:hover{
+
+    transform:translateY(-10px);
+
+    border-color:#A855F7;
+
+    box-shadow:0 0 30px rgba(168,85,247,.35);
+
+}
+
+.feature-card i{
+
+    font-size:36px;
+
+    color:#A855F7;
+
+    margin-bottom:15px;
+
+}
+
+.feature-card h5{
+
+    margin:0;
+
+    font-weight:600;
+
+}
