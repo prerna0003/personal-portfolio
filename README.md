@@ -8,7 +8,7 @@ A modern and responsive personal portfolio website built with **Flask**, **HTML*
 
 ## 📸 Preview
 
-![Portfolio Preview](static/images/portfolio-preview.jpg)
+![Portfolio Preview](static/images/portfolio-preview.jpeg)
 ---
 
 ## ✨ Features
